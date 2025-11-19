@@ -1,0 +1,32 @@
+<div class="card mt-3">
+  <h3>{{ vgame().id === 0 ? 'Create Game' : 'Edit Game' }}</h3>
+  <div class="card-body">
+
+    <form (ngSubmit)="save()">
+        <label>Title</label>
+        <input class="form-control" [(ngModel)]="vgame().title" name="title"  required>
+  
+        <label>Genre</label>
+        <input class="form-control" [(ngModel)]="vgame().genre" name="genre">
+      
+        <label>Release Year</label>
+        <input type="number" class="form-control" [(ngModel)]="vgame().releaseYear" name="releaseYear">
+           
+        <label>Platform</label>
+        <input type="string" class="form-control" [(ngModel)]="vgame().platform" name="platform">
+           
+        <label>Description</label>
+        <textarea [(ngModel)]="vgame().description" name="description" class="form-control"></textarea>
+           
+        <label>Rating</label>
+        <input type="string" class="form-control" [(ngModel)]="vgame().rating" name="rating">
+           
+        <label>Price</label>
+        <input type="number" class="form-control" [(ngModel)]="vgame().price" name="price">
+     
+      <button type="submit">{{ vgame().id === 0 ? 'Create' : 'Save' }}</button>
+      <a routerLink="/vgames">Cancel</a>
+    </form>
+
+  </div>
+</div>

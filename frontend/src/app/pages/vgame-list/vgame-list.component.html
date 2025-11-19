@@ -1,0 +1,51 @@
+<!-- <div class="card">
+  <div class="card-body">
+    <h2 class="h5">Video Games</h2>
+  <div class="mt-2">
+      <a [routerLink]="['/vgames', 0]" class="btn btn-success">Add New Game</a>
+    </div>
+  </div>
+  <table class="table table-bordered mt-3">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Genre</th>
+        <th>Year</th>
+        <th>Platform</th>
+        <th>Description</th>
+        <th>Rating</th>
+        <th>Price</th>
+        <th>Edit</th>
+      </tr>
+    </thead>
+
+    <div *ngIf="vgames().length === 0" class="alert alert-info">No games available</div>
+    <tbody>
+      <tr *ngFor="let g of vgames()">
+        <td>{{ g.title }}</td>
+        <td>{{ g.genre }}</td>
+        <td>{{ g.releaseYear }}</td>
+        <td>{{ g.platform }}</td>
+        <td>{{ g.description }}</td>
+        <td>{{ g.rating }}</td>
+        <td>{{ g.price | currency }}</td>
+        <td>
+          <a [routerLink]="['/vgames', g.id]" class="btn btn-primary btn-sm">Edit</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div> -->
+
+
+<h2>Video Games</h2>
+
+<a routerLink="/vgames/0" class="btn btn-success">Add New Game</a>
+<div *ngIf="vgames().length === 0" class="alert alert-info">No games available</div>
+<ul>
+  <li *ngFor="let g of vgames()">
+    <a [routerLink]="['/vgames', g.id]">
+      {{ g.title }} ({{ g.releaseYear }}) — {{ g.genre }}
+    </a>
+  </li>
+</ul>
