@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- REQUIRED: main xUnit package -->
+    <PackageReference Include="xunit" Version="2.9.3" />
+
+    <!-- Optional: test runner -->
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.0">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+
+    <!-- Microsoft test adapter -->
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+
+    <!-- EF Core InMemory (for DbContext testing) -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="9.0.11" />
+
+    <!-- Reference to the main project -->
+    <ProjectReference Include="..\Newton.VideoGames.Catalogue.csproj" />
+  </ItemGroup>
+
+</Project>

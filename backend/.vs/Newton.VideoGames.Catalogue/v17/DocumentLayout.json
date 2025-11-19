@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DEV\\TEST-PROJECTS\\Newton.VideoGames.Catalogue\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1BEA9EC-09E6-4670-BD78-A9839F4461F4}|Newton.VideoGames.Catalogue.Tests\\Newton.VideoGames.Catalogue.Tests.csproj|c:\\dev\\test-projects\\newton.videogames.catalogue\\newton.videogames.catalogue.tests\\vgamescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1BEA9EC-09E6-4670-BD78-A9839F4461F4}|Newton.VideoGames.Catalogue.Tests\\Newton.VideoGames.Catalogue.Tests.csproj|solutionrelative:newton.videogames.catalogue.tests\\vgamescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1BEA9EC-09E6-4670-BD78-A9839F4461F4}|Newton.VideoGames.Catalogue.Tests\\Newton.VideoGames.Catalogue.Tests.csproj|c:\\dev\\test-projects\\newton.videogames.catalogue\\newton.videogames.catalogue.tests\\vgamedbcontexttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1BEA9EC-09E6-4670-BD78-A9839F4461F4}|Newton.VideoGames.Catalogue.Tests\\Newton.VideoGames.Catalogue.Tests.csproj|solutionrelative:newton.videogames.catalogue.tests\\vgamedbcontexttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1BEA9EC-09E6-4670-BD78-A9839F4461F4}|Newton.VideoGames.Catalogue.Tests\\Newton.VideoGames.Catalogue.Tests.csproj|c:\\dev\\test-projects\\newton.videogames.catalogue\\newton.videogames.catalogue.tests\\testdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1BEA9EC-09E6-4670-BD78-A9839F4461F4}|Newton.VideoGames.Catalogue.Tests\\Newton.VideoGames.Catalogue.Tests.csproj|solutionrelative:newton.videogames.catalogue.tests\\testdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VGamesControllerTests.cs",
+              "DocumentMoniker": "C:\\DEV\\TEST-PROJECTS\\Newton.VideoGames.Catalogue\\Newton.VideoGames.Catalogue.Tests\\VGamesControllerTests.cs",
+              "RelativeDocumentMoniker": "Newton.VideoGames.Catalogue.Tests\\VGamesControllerTests.cs",
+              "ToolTip": "C:\\DEV\\TEST-PROJECTS\\Newton.VideoGames.Catalogue\\Newton.VideoGames.Catalogue.Tests\\VGamesControllerTests.cs",
+              "RelativeToolTip": "Newton.VideoGames.Catalogue.Tests\\VGamesControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:26:05.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestDbContextFactory.cs",
+              "DocumentMoniker": "C:\\DEV\\TEST-PROJECTS\\Newton.VideoGames.Catalogue\\Newton.VideoGames.Catalogue.Tests\\TestDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Newton.VideoGames.Catalogue.Tests\\TestDbContextFactory.cs",
+              "ToolTip": "C:\\DEV\\TEST-PROJECTS\\Newton.VideoGames.Catalogue\\Newton.VideoGames.Catalogue.Tests\\TestDbContextFactory.cs",
+              "RelativeToolTip": "Newton.VideoGames.Catalogue.Tests\\TestDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:16:18.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VGameDbContextTests.cs",
+              "DocumentMoniker": "C:\\DEV\\TEST-PROJECTS\\Newton.VideoGames.Catalogue\\Newton.VideoGames.Catalogue.Tests\\VGameDbContextTests.cs",
+              "RelativeDocumentMoniker": "Newton.VideoGames.Catalogue.Tests\\VGameDbContextTests.cs",
+              "ToolTip": "C:\\DEV\\TEST-PROJECTS\\Newton.VideoGames.Catalogue\\Newton.VideoGames.Catalogue.Tests\\VGameDbContextTests.cs",
+              "RelativeToolTip": "Newton.VideoGames.Catalogue.Tests\\VGameDbContextTests.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T16:33:58.317Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
