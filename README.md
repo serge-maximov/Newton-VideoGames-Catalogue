@@ -73,5 +73,6 @@ API Endpoints
     	PUT				/api/vgames/{id}	Update a game
    	DELETE			/api/vgames/{id}	Delete a game
 
-
+License
+	MIT License.
 
